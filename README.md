@@ -3,7 +3,7 @@
 ![License: MIT License](https://img.shields.io/badge/License-MIT-blue.svg)
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
 ![Streamlit](https://img.shields.io/badge/Streamlit-UI-green)
-![Contributors](https://img.shields.io/badge/contributors-4-blueviolet)
+![Contributors](https://img.shields.io/badge/contributors-1-blueviolet)
 
 
 ## Table of Contents
@@ -29,13 +29,15 @@ PVC_predictor is a modular pipeline to discover the potential vaccine candidates
        
 ## Features
 
-- **Data Upload & Management**: Supports CSV, TSV, and Excel (.xlsx) formats.  
-- **AI-Powered Chart Generation**: Create interactive Plotly visualizations from natural language queries.  
-- **AI Insights**: Automatically analyze and provide explanations for generated charts.  
-- **Academic Research Integration**: Discover relevant research papers via Semantic Scholar.  
-- **Graph Interpreter**: Analyze uploaded graph images using AI.  
-- **Data Q&A**: Ask questions about your dataset and receive AI-driven answers.  
-- **Sample Datasets**: Access pre-loaded datasets for quick testing (Apple Stock, Gene Expression, Hospital Data).  
+- **Host Homologous protein removal**
+- **Removal of Paralogous Proteins**
+- **Non-Virulent Proteins**
+- **Non-Essential Proteins**
+- **Allergenicity of Proteins**
+- **Antigenicity of Proteins**,
+- **Proteins Stability**
+- **Proteins Subcellular Localization**
+- **Data Visualization and analytics**
 
 ## Prerequisites
 
