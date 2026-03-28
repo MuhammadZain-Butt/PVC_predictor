@@ -71,6 +71,32 @@ pip install -r requirements.txt
 
 ### 4. Install prerequisite tools 
 ``` Install the tools by following the instructions from their official GitHub pages.```
+## A) Deeplocpro 1.0
+
+1) Download the ```https://github.com/Jaimomar99/deeplocpro.git```
+2) Unzip or extract it.
+3) Open the folder
+```cd deeplocpro-main```
+4) Install it's dependcies:
+``` pip install . ```
+5) For testing successful installation
+```deeplocpro -f test.fasta```
+
+## B) IApred
+
+1) Download the ```https://github.com/sebamiles/IAPred.git```
+2) Unzip or extract it.
+3) Open the folder
+```cd IApred-main```
+4) Install it's dependcies:
+```pip install -r requirements.txt```
+5) For testing successful installation
+```python IApred.py test.fasta```
+
+## C) Blastp
+
+1) Install the [ncbi-blast-2.17.0+-win64.exe ](https://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/)
+
 Note: deeplocpro and IApred should be installed inside the PVC_predictor folder, or adjust the paths
        in integrated_pipeline.py, and blastp will be installed in its default path.
 
@@ -80,6 +106,7 @@ Note: deeplocpro and IApred should be installed inside the PVC_predictor folder,
 After installing dependencies and setting up your environment, you can start BioVix using Streamlit.
 
 ```powershell
+cd ..
 streamlit run PVC_predictor.py
 ```
 Once the command runs, the app will automatically open in your default browser at: `http://localhost:8501`
