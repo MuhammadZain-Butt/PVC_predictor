@@ -70,7 +70,8 @@ pip install -r requirements.txt
 ```
 
 ### 4. Install prerequisite tools 
-``` Install the tools by following the instructions from their official GitHub pages.```
+Install the tools by following the instructions from their official GitHub pages or by following guide.
+
 #### A) Deeplocpro 1.0
 
 1) Download the ```https://github.com/Jaimomar99/deeplocpro.git```
