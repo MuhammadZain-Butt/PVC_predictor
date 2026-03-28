@@ -1,0 +1,7 @@
+streamlit
+biopython
+pandas
+plotly
+networkx
+requests
+beautifulsoup4
