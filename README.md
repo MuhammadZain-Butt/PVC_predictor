@@ -42,19 +42,19 @@ PVC_predictor is a modular pipeline to discover the potential vaccine candidates
 ## Prerequisites
 
 - [Python 3.8.5](https://www.python.org/downloads/)
-- Tools or Softwares:
+- Prerequisite Tools or Software:
   - [ncbi-blast-2.17.0+-win64.exe ](https://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/)
   - [deeplocpro 1.0](https://github.com/Jaimomar99/deeplocpro)
   - [IApred](https://github.com/sebamiles/IAPred)
-  
 
-## BioVix Installation
+
+## PVC_predictor Installation
 
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/MuhammadZain-Butt/BioVix.git
-cd BioVix
+git clone https://github.com/MuhammadZain-Butt/PVC_predictor.git
+cd PVC_predictor
 ```
 
 ### 2. Create a Virtual Environment (Recommended)
@@ -66,34 +66,19 @@ python -m venv env
 env\Scripts\activate
 ```
 Note: Replace `env_name` with your preferred name for the virtual environment.
-#### Linux / macOS:
-```powershell
-python3 -m venv env_name
-source env_name/bin/activate
-```
-Note: Replace `env_name` with your preferred name for the virtual environment.
 
-### 3. Install Dependencies
+### 4. Install prerequisite tools 
+``` Install the tools by following the instructions from their official GitHub pages.```
+Note: deeplocpro and IApred should be installed inside the PVC_predictor folder, or adjust the paths
+       in integrated_pipeline.py, and blastp will be installed in its default path.
+
+### 3. Install Dependencies 
 
 ```powershell
 pip install -r requirements.txt
 ```
 
-### 4. Configure Environment Variables
-
-Create a `.env` file in the project root directory (as in BioVix):
-
-```
-DEEPSEEK_API_KEY="your_deepseek_key_here"
-GPT_API_KEY="your_gpt_key_here"
-QWEN_API_KEY="your_qwen_key_here"
-SEMANTIC_SCHOLAR_API_KEY="your_semantic_scholar_key_here"
-```
-Tip: If you do not have these API keys, you can create accounts here to generate them:
-- [OpenRouter](https://openrouter.ai/models) 
-- [Semantic Scholar](https://www.semanticscholar.org/product/api)
-
-## Running BioVix
+## Running PVC_predictor
 
 After installing dependencies and setting up your environment, you can start BioVix using Streamlit.
 
@@ -121,15 +106,13 @@ The following panels illustrate the outputs of BioVix across varying datasets.  
 
 
 
-## Deployment
-
-BioVix is deployed on Hugging Face and can be tested or used directly, [click here](https://huggingface.co/spaces/MuhammadZain10/BioVix)
 
 ## Tips for Success
 
-- Ensure that input files are correctly formatted (e.g., CSV, XLSX, or TSV) and contain all information required for visualization.
-- Write queries in a clear and detailed manner, and avoid using informal language.
-- Use consistent naming conventions for columns and variables to improve clarity and interpretation.
+- Ensure that input files are correctly formatted (e.g., fasta format) 
+- Set the parameters for blastp, allergenicity, deeplocpro and so on, according to your study.
+- Read the instructions for each step carefully and if you don't have required data in some steps links are provided.
+- Consider the statistics and visualization after every step, that would be automatically generated.
   
 
 ## References
