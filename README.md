@@ -22,10 +22,6 @@
 ## Overview
 
 PVC_predictor is a modular pipeline to discover the potential vaccine candidates (PVCs) from the whole bacterial proteome by subtractive proteomics for the construction of effective vaccine.
-
-
-![User Interface](https://github.com/MuhammadZain-Butt/BioVix/blob/main/overview.jpg)
-
        
 ## Features
 
@@ -83,28 +79,19 @@ pip install -r requirements.txt
 After installing dependencies and setting up your environment, you can start BioVix using Streamlit.
 
 ```powershell
-streamlit run app.py
+streamlit run pipeline.py
 ```
 Once the command runs, the app will automatically open in your default browser at: `http://localhost:8501`
 
 ## Outputs
 
-The following panels illustrate the outputs of BioVix across varying datasets.  **(A)** displays the raw input data, while **(B,C,D)** presents the corresponding interactive visualization rendered with Plotly. **(E)** provides the AI-generated interpretation of the graph, along with the derived search query. Finally, **(F)** lists the relevant research papers retrieved from Semantic Scholar using the formulated query: 
+This pipeline consists of 8 steps, with the hard-coded data visualization and statistics at every step. At the end of each step, the user is provided with the downloadable FASTA file for the next step. The user can perform any module independently of other steps. After all analyses are complete, a comparative analysis funnel graph is visualized to show the reduction of the proteome or protein sequences into a few potential vaccine candidates. 
 
-- **Figures**:
-  1. **Gene-level Protein Expression Dataset**
-      
-     ![Gene-level Protein Expression](https://github.com/MuhammadZain-Butt/BioVix/blob/main/results/Figure%2004.jpg)
-     
-  2. **Peak Annotation dataset**
-     
-     ![Peak Annotation dataset](https://github.com/MuhammadZain-Butt/BioVix/blob/main/results/Figure%2005.jpg)
-     
-  3. **Clinical Diabetic Dataset**
-     
-     ![Clinical Diabetic Dataset](https://github.com/MuhammadZain-Butt/BioVix/blob/main/results/Figure06.jpg)
-
-
+## Methodology
+- HTTP post/get requests
+- Tools Local installation
+- Python Traditional Functions
+- Files on cloud space 
 
 
 ## Tips for Success
