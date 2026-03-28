@@ -74,7 +74,7 @@ Install the tools by following the instructions from their official GitHub pages
 
 #### A) Deeplocpro 1.0
 
-1) Download the ```https://github.com/Jaimomar99/deeplocpro.git```
+1) Download the [https://github.com/Jaimomar99/deeplocpro.git](https://github.com/Jaimomar99/deeplocpro.git)
 2) Unzip or extract it.
 3) Open the folder
 ```cd deeplocpro-main```
@@ -85,7 +85,7 @@ Install the tools by following the instructions from their official GitHub pages
 
 #### B) IApred
 
-1) Download the ```[https://github.com/sebamiles/IAPred.git](https://github.com/sebamiles/IAPred.git)```
+1) Download the [https://github.com/sebamiles/IAPred.git](https://github.com/sebamiles/IAPred.git)
 2) Unzip or extract it.
 3) Open the folder
 ```cd IApred-main```
