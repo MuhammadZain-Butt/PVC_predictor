@@ -13,11 +13,10 @@
 4. [PVC_predictor Installation](#biovix-installation)
 5. [Running BioVix](#running-biovix)
 6. [Outputs](#outputs)
-7. [Deployment](#deployment)
-8. [Tips for Success](#tips-for-success)
-9. [Reference](#reference)
-10. [License and Issues](#license-and-issues)
-11. [Authors and Contacts](#authors-and-contacts)
+7. [Tips for Success](#tips-for-success)
+8. [Reference](#reference)
+9. [License and Issues](#license-and-issues)
+10. [Authors and Contacts](#authors-and-contacts)
 
 ## Overview
 
