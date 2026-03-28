@@ -10,8 +10,8 @@
 1. [overview](#overview)
 2. [Features](#features)
 3. [Prerequisites](#prerequisites)
-4. [PVC_predictor Installation](#biovix-installation)
-5. [Running BioVix](#running-biovix)
+4. [PVC_predictor Installation](#PVC_predictor-installation)
+5. [Running PVC_predictor](#running-PVC_predictor)
 6. [Outputs](#outputs)
 7. [Tips for Success](#tips-for-success)
 8. [Methodolgy](#methodology)
@@ -137,7 +137,7 @@ In Process.
 ## License and Issues
 
 This PVC_predictor is licensed under the MIT License - see the [LICENSE](License) file for details.
-Submit issues or contributions via [GitHub Issues](https://github.com/MuhammadZain-Butt/BioVix/issues).
+Submit issues or contributions via [GitHub Issues](https://github.com/MuhammadZain-Butt/PVC_predictor/issues).
 
 ## Authors and Contacts
 
