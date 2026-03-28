@@ -27,11 +27,11 @@ PVC_predictor is a modular pipeline to discover the potential vaccine candidates
 
 - **Host Homologous protein removal**
 - **Removal of Paralogous Proteins**
-- **Non-Virulent Proteins**
-- **Non-Essential Proteins**
-- **Allergenicity of Proteins**
-- **Antigenicity of Proteins**,
-- **Proteins Stability**
+- **Removal of Non-Virulent Proteins**
+- **Removal of Non-Essential Proteins**
+- **Removal of Allergen Proteins**
+- **Removal of low Antigenic Proteins**,
+- **Removal of Unstable Proteins**
 - **Proteins Subcellular Localization**
 - **Data Visualization and analytics**
 
