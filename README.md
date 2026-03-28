@@ -37,7 +37,7 @@ PVC_predictor is a modular pipeline to discover the potential vaccine candidates
 
 ## Prerequisites
 
-- [Python 3.8.5](https://www.python.org/downloads/)
+- [python-3.8.5](https://www.python.org/downloads/)
 - Prerequisite Tools or Software:
   - [ncbi-blast-2.17.0+-win64.exe ](https://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/)
   - [deeplocpro 1.0](https://github.com/Jaimomar99/deeplocpro)
@@ -63,23 +63,24 @@ env\Scripts\activate
 ```
 Note: Replace `env_name` with your preferred name for the virtual environment.
 
-### 4. Install prerequisite tools 
-``` Install the tools by following the instructions from their official GitHub pages.```
-Note: deeplocpro and IApred should be installed inside the PVC_predictor folder, or adjust the paths
-       in integrated_pipeline.py, and blastp will be installed in its default path.
-
 ### 3. Install Dependencies 
 
 ```powershell
 pip install -r requirements.txt
 ```
 
-## Running PVC_predictor
+### 4. Install prerequisite tools 
+``` Install the tools by following the instructions from their official GitHub pages.```
+Note: deeplocpro and IApred should be installed inside the PVC_predictor folder, or adjust the paths
+       in integrated_pipeline.py, and blastp will be installed in its default path.
+
+
+### 5. Running PVC_predictor
 
 After installing dependencies and setting up your environment, you can start BioVix using Streamlit.
 
 ```powershell
-streamlit run pipeline.py
+streamlit run PVC_predictor.py
 ```
 Once the command runs, the app will automatically open in your default browser at: `http://localhost:8501`
 
