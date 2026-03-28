@@ -71,7 +71,7 @@ pip install -r requirements.txt
 
 ### 4. Install prerequisite tools 
 ``` Install the tools by following the instructions from their official GitHub pages.```
-## A) Deeplocpro 1.0
+#### A) Deeplocpro 1.0
 
 1) Download the ```https://github.com/Jaimomar99/deeplocpro.git```
 2) Unzip or extract it.
@@ -82,7 +82,7 @@ pip install -r requirements.txt
 5) For testing successful installation
 ```deeplocpro -f test.fasta```
 
-## B) IApred
+#### B) IApred
 
 1) Download the ```https://github.com/sebamiles/IAPred.git```
 2) Unzip or extract it.
@@ -93,7 +93,7 @@ pip install -r requirements.txt
 5) For testing successful installation
 ```python IApred.py test.fasta```
 
-## C) Blastp
+#### C) Blastp
 
 1) Install the [ncbi-blast-2.17.0+-win64.exe ](https://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/)
 
